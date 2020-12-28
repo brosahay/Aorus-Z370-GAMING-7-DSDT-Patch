@@ -7,7 +7,7 @@
 
  CPU: Intel i7 8700K
 
- GPU: Intel UHD630 (iGPU, enabled), Sapphire RX580 8GB (eGPU, enabled)
+ GPU: Intel UHD630 (iGPU, enabled), Sapphire RX580 8GB (dGPU, enabled)
 
  RAM: 2X8GB HYPERX DDR4 3200CL16
 
@@ -50,4 +50,3 @@
  Chipset → IOAPIC 24-119 Entries : Enabled
 
  Chipset → Integrated Graphics : Enabled
-

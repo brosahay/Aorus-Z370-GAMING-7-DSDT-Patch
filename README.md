@@ -23,7 +23,7 @@
 
 ## BIOS
 
- System -> CSM Support: Disabled
+ System → CSM Support: Disabled
 
  BIOS → Fast Boot : Disabled
 

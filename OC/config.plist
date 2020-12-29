@@ -118,6 +118,8 @@
 			<false/>
 			<key>SyncRuntimePermissions</key>
 			<true/>
+			<key>AllowRelocationBlock </key>
+			<false/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -450,6 +452,8 @@
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<false/>
 		</dict>
 		<key>Force</key>
 		<array/>
@@ -473,8 +477,6 @@
 			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DummyPowerManagement</key>
-			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -489,6 +491,10 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
+			<key>LegacyCommpage</key>
+			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -593,6 +599,8 @@
 			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
+			<key>BlacklistAppleUpdate</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -661,7 +669,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1</string>
+				<string></string>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 			</dict>
@@ -724,17 +732,19 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>XX_CHANGE_ME_XX</string>
 			<key>ROM</key>
-			<data></data>
+			<string>XX_CHANGE_ME_XX</string>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac18,3</string>
+			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>XX_CHANGE_ME_XX</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>XX_CHANGE_ME_XX</string>
+			<key>SystemMemoryStatus </key>
+			<string>Auto</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -831,6 +841,8 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
+			<false/>
+			<key>ForceResolution </key>
 			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
